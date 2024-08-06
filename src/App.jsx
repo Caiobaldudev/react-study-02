@@ -1,6 +1,7 @@
 import React from "react";
 import ButtonModal from "./ButtonModal";
 import Modal from "./Modal";
+import Contador from "./Contador/Contador";
 
 const App = () => {
   // const [ativo, setAtivo] = React.useState(false);
@@ -19,6 +20,7 @@ const App = () => {
       {/* <div>{modal ? 'Modal Aberto' : 'Modal Fechado'}</div> */}
       <Modal modal={modal} setModal={setModal} />
       <ButtonModal setModal={setModal} />
+      <Contador/>
     </div>
   );
 };
