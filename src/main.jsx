@@ -7,9 +7,10 @@ import ExercicioTwo from './ExercicioTwo/ExercicioTwo.jsx'
 import URef from './useRef/URef.jsx'
 import UMemo from './useMemo&usecallBack/UMemo.jsx'
 import UCallback from './useMemo&usecallBack/UCallback.jsx'
+import UCapp from './useContext/UCapp.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <UCallback />
+    <UCapp />
   </React.StrictMode>,
 )
